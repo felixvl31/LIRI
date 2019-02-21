@@ -38,9 +38,11 @@ else if (command ==="movie-this" || command ==="spotify-this-song" || command ==
   main(command,input);
 }
 else {
+  console.clear();
   console.log(separator);
   console.log("Wrong command");
   console.log(" ");
+  console.log(separator);
 
   log("Wrong command");
   log(" ");
@@ -48,6 +50,7 @@ else {
 }
 
 function main(command, input){
+  console.clear();
   log("Command:"+command+" "+input);
   log(" ");
   if (command === "movie-this"){
@@ -72,6 +75,7 @@ function main(command, input){
     console.log(separator);
     console.log("Wrong command");
     console.log(" ");
+    console.log(separator);
     log("Wrong command");
     log(" ");
     log(separator);

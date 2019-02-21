@@ -1,11 +1,6 @@
-___________________________________________________________________________________________________________________________________________________________________________________________________________________
-Command:concert-this simple plan
- 
-Simple plan will be at Temple Newsam House
-on Leeds, United Kingdom, the following date 2019-05-25
-___________________________________________________________________________________________________________________________________________________________________________________________________________________
-___________________________________________________________________________________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________
 Command:movie-this harry potter
+ 
 Title: Harry Potter and the Deathly Hallows: Part 2
 Year: 2011
 Country: USA, UK
@@ -15,166 +10,40 @@ Plot: Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in the
 Ratings:
  IMDb..............8.1/10
  Rotten Tomatoes...96%
-___________________________________________________________________________________________________________________________________________________________________________________________________________________
 _______________________________________________________________________________
-Command:spotify-this-song 
+Wrong command
  
-The song The Sign by Ace of Base
-is included in the album The Sign (US Album) [Remastered]
-and can be previewed at https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
 _______________________________________________________________________________
+Command:movie-this harry potter
+ 
+Title: Harry Potter and the Deathly Hallows: Part 2
+Year: 2011
+Country: USA, UK
+Language: English
+Cast: Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe
+Plot: Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.
+Ratings:
+ IMDb..............8.1/10
+ Rotten Tomatoes...96%
 _______________________________________________________________________________
-Command:spotify-this-song i want it that way
+Command:spotify-this-song Macarena
  
-The song I Want It That Way by Backstreet Boys
-is included in the album The Hits--Chapter One
-and can be previewed at https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+ 
+The song Macarena by Reykon
+is included in the album Macarena
+and can be previewed at https://open.spotify.com/track/67OeF21snQIQRrjPtfbP5L
 _______________________________________________________________________________
+Command:spotify-this-song macarena los del rio
+ 
+ 
+The song Macarena by Los Del Rio
+is included in the album Fiesta Macarena
+and can be previewed at https://open.spotify.com/track/4oaj36KzXRgDg4McgcTsZK
 _______________________________________________________________________________
-Command:spotify-this-song i want it that way
- 
-The song I Want It That Way by Backstreet Boys
-is included in the album The Hits--Chapter One
-and can be previewed at https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
-_______________________________________________________________________________
-Command:concert-this simple plan
+Command:spotify-this-song Macarena
  
  
-Simple plan will be at Temple Newsam House
-on Leeds, United Kingdom, the following date 2019-05-25
-_______________________________________________________________________________
-Command:concert-this madonna
- 
- 
-No concerts found for Madonna
-_______________________________________________________________________________
-Command:concert-this shakira
- 
- 
-No concerts found for Shakira
-_______________________________________________________________________________
-Command:concert-this metallica
- 
- 
-Metallica will be at Don Haskins Center
-on El Paso, United States, the following date 2019-02-28
-_______________________________________________________________________________
-Command:concert-this simple plan
- 
-Command:concert-this simple plan
- 
-Command:concert-this simple plan
- 
-Command:concert-this simple plan
- 
-Command:concert-this simple plan
- 
-Command:concert-this simple plan
- 
-Command:concert-this simple plan
- 
-Command:concert-this simple plan
- 
-Command:concert-this simple plan
- 
- 
-Simple plan will be at Temple Newsam House
-on Leeds, United Kingdom, the following date 05/25/2019
-_______________________________________________________________________________
-Command:concert-this simple plan
- 
- 
-Simple plan will be at Temple Newsam House
-on Leeds, United Kingdom, the following date 05/25/2019
-_______________________________________________________________________________
-Command:concert-this simple plan
- 
-Command:concert-this simple plan
- 
- 
-Simple plan will be at Temple Newsam House
-on Leeds, United Kingdom, the following date 05/25/2019
-_______________________________________________________________________________
-Command:concert-this METALLICA
- 
- 
-METALLICA will be at Don Haskins Center
-on El Paso, United States, the following date 02/28/2019
-_______________________________________________________________________________
-Command:concert-this METALLICA
- 
-Command:concert-this METALLICA
- 
-Command:concert-this METALLICA
- 
-Command:concert-this simple plan
- 
-Command:concert-this METALLICA
- 
-Command:concert-this simple plan
- 
-Command:concert-this all time low
- 
-Command:concert-this story of the year
- 
-Command:concert-this story of the year
- 
- 
-Story of the Year will be at Huntington State Beach
-on Huntington Beach, United States, the following date 04/27/2019
-_______________________________________________________________________________
-Command:concert-this all time low
- 
- 
-All Time Low will be at Slam Dunk Festival: North
-on Leeds, United Kingdom, the following date 05/25/2019
-_______________________________________________________________________________
-Command:concert-this story of the year
- 
- 
-Story of the Year will be at Huntington State Beach
-on Huntington Beach, United States, the following date 04/27/2019
-_______________________________________________________________________________
-Command:concert-this simple plan
- 
- 
-Simple Plan will be at Temple Newsam House
-on Leeds, United Kingdom, the following date 05/25/2019
-_______________________________________________________________________________
-Command:concert-this METALLICA
- 
- 
-Metallica will be at Don Haskins Center
-on El Paso, United States, the following date 02/28/2019
-_______________________________________________________________________________
-Command:spotify-this-song   
- 
- 
-Song    not found in Spotify
-_______________________________________________________________________________
-Command:spotify-this-song  
- 
- 
-Song   not found in Spotify
-_______________________________________________________________________________
-Command:spotify-this-song 
- 
- 
-The song The Sign by Ace of Base
-is included in the album The Sign (US Album) [Remastered]
-and can be previewed at https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
-_______________________________________________________________________________
-Command:spotify-this-song 
- 
- 
-The song The Sign by Ace of Base
-is included in the album The Sign (US Album) [Remastered]
-and can be previewed at https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
-_______________________________________________________________________________
-Command:spotify-this-song 
- 
- 
-The song The Sign by Ace of Base
-is included in the album The Sign (US Album) [Remastered]
-and can be previewed at https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+The song Macarena by Reykon
+is included in the album Macarena
+and can be previewed at https://open.spotify.com/track/67OeF21snQIQRrjPtfbP5L
 _______________________________________________________________________________
