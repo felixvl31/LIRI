@@ -1,20 +1,24 @@
 require("dotenv").config();
-const axios =require("axios");
-const keys = require("./keys.js");
-const fs = require("fs");
-
-var Spotify = require('node-spotify-api');
+const axios   = require("axios");
+const keys    = require("./keys.js");
+const fs      = require("fs");
+const moment  = require('moment');
+const Spotify = require('node-spotify-api');
  
+
+//Keys
 var spotify = new Spotify({
   id:keys.spotify.id,
   secret:keys.spotify.secret
 });
 
-const bitID = keys.bit.id;
-const OMDBAPI = keys.omdb.api;
+var bitID = keys.bit.id;
+var OMDBAPI = keys.omdb.api;
+
 
 var command = process.argv[2].replace(/['"]+/g, '');
 var input = process.argv.splice(3).join(" ").replace(/['"]+/g, '');
+
 var separator ="_______________________________________________________________________________";
 
 if (command === "do-what-it-says"){
@@ -177,6 +181,7 @@ function thisConcert(string){
   
   axios.get(queryUrl).then(
     function(response) {
+      console.log()
       if (response.data.length === 0){
         console.log(separator);
         console.log(" ");
@@ -188,17 +193,19 @@ function thisConcert(string){
         log(separator);
         return;
       }
+      var artist = response.data[0].lineup[0]
       var name = response.data[0].venue.name;
       var location = response.data[0].venue.city+", "+response.data[0].venue.country;
       var date = response.data[0].datetime.split("T")[0];
+      date = moment(date, "YYYY-MM-DD").format("MM/DD/YYYY");
       console.log(separator);
       console.log(" ");
-      console.log(capitalize(string) +" will be at "+name);
+      console.log(artist +" will be at "+name);
       console.log("on "+location+", the following date "+date);
       console.log(separator);
 
       log(" ");
-      log(capitalize(string) +" will be at "+name);
+      log(artist +" will be at "+name);
       log("on "+location+", the following date "+date);
       log(separator);
     }
