@@ -41,11 +41,9 @@ else {
   console.clear();
   console.log(separator);
   console.log("Wrong command");
-  console.log(" ");
   console.log(separator);
 
   log("Wrong command");
-  log(" ");
   log(separator);
 }
 
@@ -74,10 +72,9 @@ function main(command, input){
   else {
     console.log(separator);
     console.log("Wrong command");
-    console.log(" ");
     console.log(separator);
+    
     log("Wrong command");
-    log(" ");
     log(separator);
   }
 
