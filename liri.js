@@ -28,8 +28,8 @@ if (command === "do-what-it-says"){
     return;
   }
   var content = data.split(",");
-  command = content[0].trim().replace(/['"]+/g, '');
-  input = content[1].trim().replace(/['"]+/g, '');
+  command = content[0].replace(/['"]+/g, '').trim();
+  input = content[1].replace(/['"]+/g, '').trim();
   main(command,input);
   });
 

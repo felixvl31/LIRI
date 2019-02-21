@@ -147,3 +147,34 @@ Command:concert-this METALLICA
 Metallica will be at Don Haskins Center
 on El Paso, United States, the following date 02/28/2019
 _______________________________________________________________________________
+Command:spotify-this-song   
+ 
+ 
+Song    not found in Spotify
+_______________________________________________________________________________
+Command:spotify-this-song  
+ 
+ 
+Song   not found in Spotify
+_______________________________________________________________________________
+Command:spotify-this-song 
+ 
+ 
+The song The Sign by Ace of Base
+is included in the album The Sign (US Album) [Remastered]
+and can be previewed at https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+_______________________________________________________________________________
+Command:spotify-this-song 
+ 
+ 
+The song The Sign by Ace of Base
+is included in the album The Sign (US Album) [Remastered]
+and can be previewed at https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+_______________________________________________________________________________
+Command:spotify-this-song 
+ 
+ 
+The song The Sign by Ace of Base
+is included in the album The Sign (US Album) [Remastered]
+and can be previewed at https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+_______________________________________________________________________________
