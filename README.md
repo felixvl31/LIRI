@@ -21,18 +21,18 @@ LIRI is a Language Interpretation and Recognition Interface CLI app
    OMDB_API        = xxxxxxxxxxxxxxxxxxxxxxxx  <br/>
 
 * There are multiple commands that can be used:
-  <br/>  **liri song-this song-name**
+  *  **liri song-this song-name**
    > ![song-this](Screenshots/song-this.PNG)
    >  ![song-this](Screenshots/song-this-no-song.PNG)
-  <br/>  **liri concert-this artist-name** 
+  *  **liri concert-this artist-name** 
    >  ![concert-this](Screenshots/concert-this.PNG)    
-  <br/>  **liri movie-this movie-title**
+  *  **liri movie-this movie-title**
    >  ![movie-this](Screenshots/movie-this.PNG)
    >  ![movie-this](Screenshots/movie-this-no-movie.PNG)
-  <br/>  **liri do-what-it-says**
+  *  **liri do-what-it-says**
    >  ![do-what-it-says](Screenshots/do-what-it-says.PNG)
 * The "do-what-it-says" command requires a random.txt file with the following format:
-  <br/>  **command, query**
+  *  **command, query**
    >  ![random](Screenshots/do-what-it-says-random.PNG)
 * There is a help command inside LIRI, was type liri help.
    >  ![help](Screenshots/help.PNG)
