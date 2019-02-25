@@ -34,13 +34,22 @@ if (command === "do-what-it-says"){
   });
 
 }
-else if (command ==="movie-this" || command ==="spotify-this-song" || command === "concert-this"){
+else if (command ==="movie-this" || command ==="song-this" || command === "concert-this"){
   main(command,input);
 }
-else {
-  console.clear();
+else if (command === "help")
+{
   console.log(separator);
-  console.log("Wrong command");
+  console.log("Hi, my name is Liri, i'm here to asssist you");
+  console.log("     To search a song: liri song-this song-name");
+  console.log("     To search a movie: liri movie-this movie-title");
+  console.log("     To search a concert: liri concert-this artist-name");
+  console.log("     To do what the random.txt says: liri do-what-it-says")
+  console.log(separator);
+}
+else {
+  console.log(separator);
+  console.log("Wrong command, type help");
   console.log(separator);
 
   log("Wrong command");
@@ -48,7 +57,6 @@ else {
 }
 
 function main(command, input){
-  console.clear();
   log("Command:"+command+" "+input);
   log(" ");
   if (command === "movie-this"){
@@ -57,7 +65,7 @@ function main(command, input){
     }
     thisMovie(input);
   }
-  else if (command === "spotify-this-song"){
+  else if (command === "song-this"){
     if (input === "" || input === undefined){
       input = "The Sign the ace"
     }
@@ -71,7 +79,7 @@ function main(command, input){
   }
   else {
     console.log(separator);
-    console.log("Wrong command");
+    console.log("Wrong command, type help.");
     console.log(separator);
     
     log("Wrong command");
@@ -174,7 +182,9 @@ function thisMovie(string){
       log(" Rotten Tomatoes..." + RTRating);
       log(separator);
     }
-  );
+  ).catch(function(error){
+    console.log(error);
+  });
 };
 
 function thisConcert(string){
@@ -202,15 +212,17 @@ function thisConcert(string){
       console.log(separator);
       console.log(" ");
       console.log(artist +" will be at "+name);
-      console.log("on "+location+", the following date "+date);
+      console.log("on "+location+", the date of "+date);
       console.log(separator);
 
       log(" ");
       log(artist +" will be at "+name);
-      log("on "+location+", the following date "+date);
+      log("on "+location+", the date of "+date);
       log(separator);
     }
 
-  );
+  ).catch(function(error){
+    console.log(error);
+  });
 
 };

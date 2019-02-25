@@ -13,5 +13,5 @@ exports.omdb = {
 };
 
 exports.bit = {
-  id: process.env.Bit_ID  
+  id: process.env.BandsInTown_ID  
 };
