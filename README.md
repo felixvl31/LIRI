@@ -21,21 +21,21 @@ LIRI is a Language Interpretation and Recognition Interface CLI app
   *  OMDB_API        = xxxxxxxxxxxxxxxxxxxxxxxx
 
 * There are multiple commands that can be used:
-  *  liri song-this song-name
-    ![song-this](Screenshots/song-this.PNG)
-     ![song-this](Screenshots/song-this-no-song.PNG)
-  *  liri concert-this artist-name 
-     ![concert-this](Screenshots/concert-this.PNG)    
-  *  liri movie-this movie-title
-     ![movie-this](Screenshots/movie-this.PNG)
-     ![movie-this](Screenshots/movie-this-no-movie.PNG)
-  *  liri do-what-it-says
-     ![do-what-it-says](Screenshots/do-what-it-says.PNG)
+  *  **liri song-this song-name**
+   > ![song-this](Screenshots/song-this.PNG)
+   >  ![song-this](Screenshots/song-this-no-song.PNG)
+  *  **liri concert-this artist-name** 
+   >  ![concert-this](Screenshots/concert-this.PNG)    
+  *  **liri movie-this movie-title**
+   >  ![movie-this](Screenshots/movie-this.PNG)
+   >  ![movie-this](Screenshots/movie-this-no-movie.PNG)
+  *  **liri do-what-it-says**
+   >  ![do-what-it-says](Screenshots/do-what-it-says.PNG)
 * The "do-what-it-says" command requires a random.txt file with the following format:
-  *  command, query
-  *  ![random](Screenshots/do-what-it-says-random.PNG)
+  *  **command, query**
+   >  ![random](Screenshots/do-what-it-says-random.PNG)
 * There is a help command inside LIRI, was type liri help.
-  ![help](Screenshots/help.PNG)
+   >  ![help](Screenshots/help.PNG)
 ***
 
 
