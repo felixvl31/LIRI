@@ -15,21 +15,22 @@ LIRI is a Language Interpretation and Recognition Interface CLI app
 ***
 ## Notes
 * You would need to provide your own .env file with the API keys the format is as follows: 
-        SPOTIFY_ID      = xxxxxxxxxxxxxxxxxxxxxxxx
-        SPOTIFY_SECRET  = xxxxxxxxxxxxxxxxxxxxxxxx
-        BandsInTown_ID  = xxxxxxxxxxxxxxxxxxxxxxxx
-        OMDB_API        = xxxxxxxxxxxxxxxxxxxxxxxx
+      *  SPOTIFY_ID      = xxxxxxxxxxxxxxxxxxxxxxxx
+      *  SPOTIFY_SECRET  = xxxxxxxxxxxxxxxxxxxxxxxx
+      *  BandsInTown_ID  = xxxxxxxxxxxxxxxxxxxxxxxx
+      *  OMDB_API        = xxxxxxxxxxxxxxxxxxxxxxxx
 
 * There are multiple commands that can be used:
-    liri song-this song-name
-    liri concert-this artist-name     
-    liri movie-this movie-title
-    liri do-as-it-says
+  *  liri song-this song-name
+  *  liri concert-this artist-name     
+  *  liri movie-this movie-title
+  *  liri do-as-it-says
 * The "do-as-it-says" command requires a random.txt file with the following format:
-    command, query
+  *  command, query
 * There is a help command inside LIRI, was type liri help.
 ***
 
-![movie-this](Screenshots/movie-this.png)
-![song-this](Screenshots/song-this.png)
-![concert-this](Screenshots/concert-this.png)
+![movie-this](Screenshots/movie-this.PNG)
+![song-this](Screenshots/song-this.PNG)
+![concert-this](Screenshots/concert-this.PNG)
+![do-as-it-says](Screenshots/do-as-it-says.PNG)
