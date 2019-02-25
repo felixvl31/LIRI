@@ -33,7 +33,7 @@ LIRI is a Language Interpretation and Recognition Interface CLI app
      ![do-what-it-says](Screenshots/do-what-it-says.PNG)
 * The "do-what-it-says" command requires a random.txt file with the following format:
   *  command, query
-     ![random](Screenshots/do-what-it-says-random.PNG)
+  *  ![random](Screenshots/do-what-it-says-random.PNG)
 * There is a help command inside LIRI, was type liri help.
   ![help](Screenshots/help.PNG)
 ***
