@@ -15,10 +15,10 @@ LIRI is a Language Interpretation and Recognition Interface CLI app
 ***
 ## Notes
 * You would need to provide your own .env file with the API keys the format is as follows: 
-  >  SPOTIFY_ID      = xxxxxxxxxxxxxxxxxxxxxxxx
-  >  SPOTIFY_SECRET  = xxxxxxxxxxxxxxxxxxxxxxxx
-  >  BandsInTown_ID  = xxxxxxxxxxxxxxxxxxxxxxxx
-  >  OMDB_API        = xxxxxxxxxxxxxxxxxxxxxxxx
+   SPOTIFY_ID      = xxxxxxxxxxxxxxxxxxxxxxxx  <br/>
+   SPOTIFY_SECRET  = xxxxxxxxxxxxxxxxxxxxxxxx  <br/>
+   BandsInTown_ID  = xxxxxxxxxxxxxxxxxxxxxxxx  <br/>
+   OMDB_API        = xxxxxxxxxxxxxxxxxxxxxxxx  <br/>
 
 * There are multiple commands that can be used:
   *  **liri song-this song-name**
